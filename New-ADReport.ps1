@@ -170,6 +170,7 @@ Function New-ADReport
 
   # Get current script execution directory (for output files)
   If(!$PSScriptRoot){$PSScriptRoot = (Get-Item -Path ".\").FullName}
+  If(!$PSScriptRoot){$PSScriptRoot = (Get-Location).Path}
 
   
   Write-Verbose "Scan AD version               : $str_ScriptVersion" 
