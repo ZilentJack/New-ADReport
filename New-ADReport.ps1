@@ -80,6 +80,7 @@
     - 1.30 Added check for Server 2003 and support for specifying domain to run against
 
     Tested on:
+     - WS 2019 (Native PS 5.1)
      - WS 2016
      - WS 2012 R2 (Set-StrictMode -Version 1.0)
      - WS 2012 R2 (Set-StrictMode -Version 2.0)
